@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="DisingCal.css">
+</head>
+<body>
+    <main>
+        <section class="titulo">
+            <h1>Calculadora Victor</h1>
+        </section>
+        <section class="blocos">
+            <div>
+                <div>
+                    <input type="number" id="a">
+                    <input type="number" id="b">
+                    <input type="number" id="resultado"readonly>
+                </div>
+                    <button type="button" onclick="somar()">+</button>
+                    <button type="button" onclick="diminuir()">-</button>
+                    <button type="button" onclick="dividir()">%</button>
+                    <button type="button" onclick="multiplicar()">x</button>
+                    <button type="button" onclick="potencia()">x<sub>2</sub></button>
+                </div>
+                    <button type="button" onclick="clean()">limpar</button>
+                    <button type="button" onclick="raiz()">√</button>
+                    <button type="button" onclick="resto()">Resto</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="LogicaCal.js"></script>
+</body>
+</html>

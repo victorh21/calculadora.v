@@ -1,0 +1,24 @@
+*
+.titulo {
+    text-align: center;
+    font: Courier, monospace;
+    color: greenyellow;
+    font-variant: small-caps;
+    font-size: 36px;
+}
+
+body {
+    background-image: linear-gradient(45deg,rgb(0, 0, 0),rgb(44, 44, 44));
+    height: 100vh;
+    
+}
+.blocos{
+    position: absolute;
+             background-color: greenyellow;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+             border-radius: 15px;
+             padding: 15px;
+             text-align: center;
+}
